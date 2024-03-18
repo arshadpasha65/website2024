@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+header{
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+   
+}
+
+a{
+    text-decoration: none;
+  
+    
+  
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+ul li{
+    margin-top: 20px;
+}
+.menuBtn{
+    float: right;
+    font-size: 30px;
+    display: none;
+}
+
+@media (max-width:  820px){
+
+    .menuBtn{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+    #memu{
+        display: block;
+    }
+}
